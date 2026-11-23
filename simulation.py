@@ -68,6 +68,7 @@ def run_simulation(
     control_buttons,
     colors,
     sim_size,
+    show_start_button
 ):
     """Запускает и ведёт главный цикл симуляции шаров"""
     background_color, simulation_background_color, panel_color, border_color = colors
