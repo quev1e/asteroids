@@ -1,0 +1,78 @@
+
+{
+    "defaults": {
+        "font": {
+            "name": "arial",
+            "size": "18"
+        },
+        "colours": {
+            "normal_bg": "#211B26",
+            "hovered_bg": "#302536",
+            "disabled_bg": "#29232D",
+            "selected_bg": "#FFA1DB",
+            "active_bg": "#FFA1DB",
+            "dark_bg": "#17131B",
+
+            "normal_text": "#F7EAF2",
+            "hovered_text": "#FFFFFF",
+            "selected_text": "#17131B",
+            "disabled_text": "#91838F",
+            "link_text": "#FFA1DB",
+
+            "normal_border": "#FFA1DB",
+            "hovered_border": "#FFFFFF",
+            "selected_border": "#FFA1DB",
+            "disabled_border": "#403541",
+            "active_border": "#FFA1DB",
+
+            "filled_bar": "#FFA1DB",
+            "unfilled_bar": "#302536"
+        }
+    },
+
+    "button": {
+        "colours": {
+            "normal_bg": "#FFA1DB",
+            "hovered_bg": "#FFA1DB",
+            "active_bg": "#FFA1DB",
+            "selected_bg": "#FFA1DB",
+
+            "normal_text": "#17131B",
+            "hovered_text": "#17131B",
+            "selected_text": "#17131B",
+
+            "normal_border": "#FFA1DB",
+            "hovered_border": "#FFFFFF",
+            "active_border": "#FFA1DB"
+        },
+        "misc": {
+            "shape": "rounded_rectangle",
+            "shape_corner_radius": "12"
+        }
+    },
+
+    "text_entry_line": {
+        "colours": {
+            "normal_bg": "#211B26",
+            "hovered_bg": "#302536",
+            "selected_bg": "#302536",
+            "active_bg": "#302536",
+
+            "normal_text": "#FFFFFF",
+            "hovered_text": "#FFFFFF",
+            "selected_text": "#FFA1DB",
+
+            "normal_border": "#FFA1DB",
+            "hovered_border": "#FFFFFF",
+            "selected_border": "#FFA1DB",
+            "active_border": "#FFA1DB"
+        }
+    },
+
+    "label": {
+        "colours": {
+            "normal_text": "#F7EAF2",
+            "dark_bg": "#17131B"
+        }
+    }
+}
