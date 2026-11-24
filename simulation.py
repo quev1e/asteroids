@@ -82,7 +82,12 @@ def run_simulation(
 
     simulation_running = True
 
-    tree, balls, width, height = build_world(config)
+    try:
+        tree, balls, width, height = build_world(config)
+    except ValueError as error:
+        error_label.set_text(str(error))
+        show_start_button()
+        return True
 
     while simulation_running:
         dt = clock.tick(60) / 1000
@@ -192,9 +197,7 @@ def run_simulation(
 
         pygame.display.update()
 
-    start_button.show()
-    restart_button.hide()
-    stop_button.hide()
+    show_start_button()
 
     tree.clear()
     balls.clear()

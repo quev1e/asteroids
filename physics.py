@@ -150,6 +150,10 @@ def resolve_ball_collision(ball_1, ball_2):
 
     v1n = ball_1.vx * nx + ball_1.vy * ny
     v2n = ball_2.vx * nx + ball_2.vy * ny
+    
+    if v1n <= v2n:
+        separate_balls(ball_1, ball_2, distance, nx, ny)
+        return
 
     m1 = ball_1.m
     m2 = ball_2.m

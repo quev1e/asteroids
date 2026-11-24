@@ -317,13 +317,6 @@ def start_simulation():
         show_start_button=show_start_button
     )
 
-    try:
-        settings = read_settings()
-    except ValueError as error:
-        print(error)
-        error_label.set_text(str(error))
-        return True
-
     show_start_button()
 
     return result
